@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@400;500&display=swap');
+*
+{
+    padding:0px;
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Merriweather', serif; */
+    
+}
+#header
+{
+    margin:5px 5px 0px 5px;
+    height:auto;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:ivory;
+    border-radius:10px;
+    /* position: sticky;
+    top: 0;
+     */
+}
+#logo
+{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    padding:10px 20px;
+}
+#title
+{
+    
+   text-shadow: 1px 1px 1px grey; 
+   font-size: xx-large;
+}
+#notification
+{
+    
+    border:1px solid red;
+    border-radius: 10px;
+    margin:10px;
+    width:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+#notification div
+{
+    font-family: 'Merriweather', serif;
+    background-color: red;
+    border-radius: 10px;
+    color:white;
+    width:20%;
+    height:auto;
+    text-wrap: nowrap;
+    padding:5px;
+    text-align: center;
+    font-weight: 700;
+
+}
+#notification marquee
+{
+    font-family: 'Merriweather', serif;
+    color:red;
+}
+#nav_bar
+{
+    background-color: bisque;
+    margin:0px 5px 0px 5px;
+    width:100%;
+    border-radius:10px;
+    /* position: sticky;
+    top:165px; */
+    
+}
+#nav_bar ul
+{
+    display:flex;
+    justify-content: space-around;
+}
+#nav_bar ul li
+{
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    padding:20px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: x-large;
+    color:black;
+    
+}
+#nav_bar ul li a
+{
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    padding:20px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: x-large;
+    color:black;
+}
+
+#login-form
+{
+    margin:0px 5px 0px 5px;
+    width:100%;
+    height:500px;
+    background-color:aqua;
+    display:inline-block;
+    margin:5px 5px 0px 5px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    border-radius: 10px;
+}
+.form-group
+{
+    width:50%;
+    height:400px;
+    background-color: coral; 
+    display:flex;
+    
+           
+}
+#sign-in-form
+{
+    width:100%;
+    height:100%;
+    background-color:hotpink;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: end;
+        
+}
+#sign-in-button
+{
+    background-color: azure;
+    width:100px;
+    height:30px;
+    border-radius: 30px 0px 0px 30px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding:5px;
+    margin-bottom: 10px;
+}
+#sign-up-button
+{
+    background-color: azure;
+    width:100px;
+    height:30px;
+    border-radius: 30px 0px 0px 30px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding:5px;
+    margin-top: 10px;
+}
+#sign-in-tab
+{
+    width:100%;
+    height:100%;
+    background-color:olive;
+    display:flex;
+    
+    justify-content:center;
+    align-items: center;
+    
+}
+#sign-in-cre
+{
+    width:80%;
+    height:80%;
+    background-color:azure;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-content:space-between;
+    
+}
+#sign-up-tab
+{
+    width:100%;
+    height:100%;
+    background-color:olive;
+    
+}
+#sign-up-cre
+{
+    width:100%;
+    height:100%;
+    background-color:azure;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    
+}
