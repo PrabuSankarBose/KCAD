@@ -38,9 +38,6 @@
 
     </div>
 
-
-
-
     <!-- <div id="form">
         <form action="result.php" method="post">
             <div>
