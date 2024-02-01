@@ -80,7 +80,7 @@
 
 
 
- <script src="../src/student.js"></script>   
+ <script src="../js/student.js"></script>   
 </body>
 </html>
 <!-- connection to db -->
