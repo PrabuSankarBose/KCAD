@@ -12,7 +12,7 @@
         <marquee>Latest notification: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, sapiente!</marquee>
         
     </div>
-    <div id="header"><a href="index.php">
+    <div id="header"><a href="../index.php">
         <img id="logo" src="../img/enterance.jpg" alt="enterance image"></a>
         <h1 id="title">K.C.A.D Chidambaram Gnangiri Matric Hr.Sec School</h1>
     </div>

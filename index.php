@@ -23,7 +23,7 @@
             <li>Home</li>
             <li>Gallery</li>
             <li>Admission</li>
-            <li><a href="student.php">Student's Portal</a></li>
+            <li><a href="./src/student.php">Student's Portal</a></li>
             <li>Contact</li>
             <li>About us</li>
         </ul>
