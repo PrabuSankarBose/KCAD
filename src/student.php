@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/student.css">
+    
 </head>
 <body>
     <div id="notification">
@@ -12,7 +13,7 @@
         <marquee>Latest notification: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, sapiente!</marquee>
         
     </div>
-    <div id="header"><a href="index.php">
+    <div id="header"><a href="../index.html">
         <img id="logo" src="../img/enterance.jpg" alt="enterance image"></a>
         <h1 id="title">K.C.A.D Chidambaram Gnangiri Matric Hr.Sec School</h1>
     </div>
@@ -30,51 +31,56 @@
     <!-- form start here -->
     <div id="login-form">
         <h2>Welcome to Student login portal</h2>
-        <form action="result.php" method="post">
+        <div id="form_id">
             <div class="form-group">
                 <div id="sign-in-form">
-                    <div id="sign-in-button">Sign-in</div>
-                    <div id="sign-up-button">Sign-up</div>
+                    <button id="sign-in-button" class="label_fields" onclick="sign_in()">Sign-in</button>
+                    <button id="sign-up-button" class="label_fields" onclick="sign_up()">Sign-up</button>
                 </div>
             </div>
             <div class="form-group">
-                <form action="result.php" method="post">    
+                    
                 <div id="sign-in-tab">
                     <div id="sign-in-cre">
-                        <label>User Name</label>
-                        <input type=text name="user-name" id="user-name">
-                        <label>Password</label>
-                        <input type=password name="pwd" id="pwd">
-                        <input type=submit>
+                        <form action="result.php" method="post">
+                            <table><tr><td>
+                                <label class="fields label_fields" >User Name</label></td><td>
+                                <input class="fields"  type=text name="user-name" id="user-name"></td></tr><tr><td>
+                                <label class="fields label_fields" >Password</label></td><td>
+                                <input class="fields"  type=password name="pwd" id="pwd"></td></tr><tr><td colspan="2" style="text-align:center">
+                                <input class="fields"  type=submit></td></tr>
+                            </table>
+                        </form>
                     </div>
                 </div> 
                     
-                <!-- <div id="sign-un-tab">
+                <div id="sign-up-tab">
                     <div id="sign-up-cre">
-                        <label>Roll Number</label>
-                        <input type=number name="roll-no" id="roll-no">
-                        <label>Full Name</label>
-                        <input type=text name="user-name" id="user-name">
-                        <label>Address</label>
-                        <textarea name="address" rows="10" cols="30"></textarea>
-                        <label>Phone Number</label>
-                        <input type=number name="phone-no" id="phone-no">
-                        <label>Password</label>
-                        <input type=password name="pwd" id="pwd">
-                        <label>Confirm Password</label>
-                        <input type=password name="c-pwd" id="c-pwd">
-                        <input type=submit>                     
-                        
+                        <table><tr><td>
+                            <label class="fields label_fields">Roll Number</label></td><td>
+                            <input class="fields" type=number name="roll-no" id="roll-no" min="1001" max="9999"></td></tr><tr><td>
+                            <label class="fields label_fields">Full Name</label></td><td>
+                            <input class="fields" type=text name="user-name" id="user-name"></td></tr><tr><td>
+                            <label class="fields label_fields">Address</label></td><td>
+                            <textarea class="fields" id="address" name="address" rows="10" cols="30"></textarea></td></tr><tr><td>
+                            <label class="fields label_fields">Phone Number</label></td><td>
+                            <input class="fields" type=number name="phone-no" id="phone-no" pattern=""></td></tr><tr><td>
+                            <label class="fields label_fields">Password</label></td><td>
+                            <input class="fields" type=password name="pwd" id="pwd"></td></tr><tr><td>
+                            <label class="fields label_fields">Confirm Password</label></td><td>
+                            <input class="fields" type=password name="c-pwd" id="c-pwd"></td></tr><tr><td colspan="2" style="text-align:center">
+                            <input class="fields" type=submit></td></tr>                     
+                        </table>                        
                     </div>    
-                </div> -->
+                </div>
             </div>    
-        </form>
+        </div>
 
     </div>
 
 
 
-    
+ <script src="../js/student.js"></script>   
 </body>
 </html>
 <!-- connection to db -->
