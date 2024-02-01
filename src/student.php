@@ -58,13 +58,13 @@
                     <div id="sign-up-cre">
                         <table><tr><td>
                             <label class="fields label_fields">Roll Number</label></td><td>
-                            <input class="fields" type=number name="roll-no" id="roll-no"></td></tr><tr><td>
+                            <input class="fields" type=number name="roll-no" id="roll-no" min="1001" max="9999"></td></tr><tr><td>
                             <label class="fields label_fields">Full Name</label></td><td>
                             <input class="fields" type=text name="user-name" id="user-name"></td></tr><tr><td>
                             <label class="fields label_fields">Address</label></td><td>
-                            <textarea class="fields" name="address" rows="10" cols="30"></textarea></td></tr><tr><td>
+                            <textarea class="fields" id="address" name="address" rows="10" cols="30"></textarea></td></tr><tr><td>
                             <label class="fields label_fields">Phone Number</label></td><td>
-                            <input class="fields" type=number name="phone-no" id="phone-no"></td></tr><tr><td>
+                            <input class="fields" type=number name="phone-no" id="phone-no" pattern=""></td></tr><tr><td>
                             <label class="fields label_fields">Password</label></td><td>
                             <input class="fields" type=password name="pwd" id="pwd"></td></tr><tr><td>
                             <label class="fields label_fields">Confirm Password</label></td><td>

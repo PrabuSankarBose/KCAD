@@ -12,15 +12,15 @@
 {
     margin:5px 5px 0px 5px;
     height:auto;
-    width:100%;
+    width:auto;
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:ivory;
+    background: linear-gradient(0deg, rgba(40,24,111,1) 17%, rgba(6,219,246,1) 100%);
     border-radius:10px;
     /* position: sticky;
-    top: 0;
-     */
+    top: 0; */
+    color : white;
 }
 #logo
 {
@@ -107,14 +107,18 @@
     margin:0px 5px 0px 5px;
     width:100%;
     height:600px;
-    background-color:aqua;
+    background-color : burlywood;
     display:inline-block;
     margin:5px 5px 0px 5px;
     text-align: center;
     font-family: 'Merriweather', serif;
     border-radius: 10px;
     border: 2px solid black;
-    }
+}
+#login-form h2
+{
+    margin-bottom: 5px;;
+}
 #form_id
 {
     display:flex;
@@ -123,7 +127,7 @@
 .form-group
 {
     width:50%;
-    height:500px;   
+    height:600px;   
                 
 }
 #sign-in-form
@@ -135,7 +139,7 @@
     flex-direction: column;
     justify-content:center;
     align-items: end;
-    padding :0px
+    
         
 }
 
@@ -153,7 +157,6 @@
     font-size: 16px;
     cursor: pointer;
     display: block;
-    border:1px solid black;
    
 }
 
@@ -171,7 +174,6 @@
     font-size: 16px;
     cursor: pointer;
     display: block;
-    border:1px solid black;
     
 }
 
@@ -217,6 +219,10 @@
     
     border:none;
 
+}
+#address
+{
+    height:80px;
 }
 #sign-up-tab
 {
