@@ -16,10 +16,11 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:ivory;
+    background: linear-gradient(0deg, rgba(40,24,111,1) 17%, rgba(6,219,246,1) 100%);
     border-radius:10px;
     position: sticky;
     top: 0;
+    color : white;
     
 }
 #logo

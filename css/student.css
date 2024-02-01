@@ -12,15 +12,15 @@
 {
     margin:5px 5px 0px 5px;
     height:auto;
-    width:100%;
+    width:auto;
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:ivory;
+    background: linear-gradient(0deg, rgba(40,24,111,1) 17%, rgba(6,219,246,1) 100%);
     border-radius:10px;
     /* position: sticky;
-    top: 0;
-     */
+    top: 0; */
+    color : white;
 }
 #logo
 {
@@ -102,27 +102,33 @@
     font-size: x-large;
     color:black;
 }
-
 #login-form
 {
     margin:0px 5px 0px 5px;
     width:100%;
-    height:500px;
-    background-color:aqua;
+    height:600px;
+    background-color : burlywood;
     display:inline-block;
     margin:5px 5px 0px 5px;
     text-align: center;
     font-family: 'Merriweather', serif;
     border-radius: 10px;
+    border: 2px solid black;
+}
+#login-form h2
+{
+    margin-bottom: 5px;;
+}
+#form_id
+{
+    display:flex;
+    
 }
 .form-group
 {
     width:50%;
-    height:400px;
-    background-color: coral; 
-    display:flex;
-    
-           
+    height:600px;   
+                
 }
 #sign-in-form
 {
@@ -133,59 +139,103 @@
     flex-direction: column;
     justify-content:center;
     align-items: end;
+    
         
 }
+
 #sign-in-button
 {
     background-color: azure;
-    width:100px;
-    height:30px;
+    width:150px;
+    height:50px;
     border-radius: 30px 0px 0px 30px;
     font-family: 'Merriweather', serif;
-    text-align: center;
-    padding:5px;
-    margin-bottom: 10px;
+    text-align: center;   
+    color: hotpink;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+   
 }
+
 #sign-up-button
 {
-    background-color: azure;
-    width:100px;
-    height:30px;
+    background-color: hotpink;
+    width:150px;
+    height:50px;
     border-radius: 30px 0px 0px 30px;
     font-family: 'Merriweather', serif;
-    text-align: center;
-    padding:5px;
-    margin-top: 10px;
+    text-align: center;   
+    color: azure;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    
 }
+
+
 #sign-in-tab
 {
     width:100%;
     height:100%;
     background-color:olive;
     display:flex;
-    
     justify-content:center;
     align-items: center;
+    
     
 }
 #sign-in-cre
 {
-    width:80%;
-    height:80%;
+    width:100%;
+    height:100%;
     background-color:azure;
     display:flex;
     flex-direction:column;
-    justify-content:space-around;
-    align-content:space-between;
+    justify-content:center;
+    align-items: center;
     
+    
+}
+
+
+.fields
+{
+    width:90%;
+    height:30px;
+    margin : 5px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.label_fields
+{
+    width:40%;
+    height:30px;
+    margin : 5px 0px;
+    
+    border:none;
+
+}
+#address
+{
+    height:80px;
 }
 #sign-up-tab
 {
     width:100%;
     height:100%;
     background-color:olive;
+    display:none;
+    justify-content:center;
+    align-items: center;
     
+
 }
+
 #sign-up-cre
 {
     width:100%;
@@ -195,5 +245,25 @@
     flex-direction:column;
     justify-content:center;
     align-items: center;
+
+}
+#sign-in-tab table
+{
     
+    border-spacing: 20px;
+    
+}
+#sign-in-tab table td
+{
+    text-align: left;  
+}
+#sign-up-tab table
+{
+    
+    border-spacing: 20px;
+    
+}
+#sign-up-tab table td
+{
+    text-align: left;  
 }
