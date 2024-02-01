@@ -30,7 +30,7 @@
     <!-- form start here -->
     <div id="login-form">
         <h2>Welcome to Student login portal</h2>
-        <form action="result.php" method="post">
+        <form action="result.php" method="post" id="form_id">
             <div class="form-group">
                 <div id="sign-in-form">
                     <div id="sign-in-button">Sign-in</div>

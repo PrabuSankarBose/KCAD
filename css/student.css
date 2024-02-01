@@ -115,6 +115,10 @@
     border-radius: 10px;
     border: 2px solid black;
 }
+#form_id
+{
+    display:flex;
+}
 .form-group
 {
     width:50%;
