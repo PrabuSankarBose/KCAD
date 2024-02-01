@@ -41,11 +41,11 @@
                 <form action="result.php" method="post">    
                 <div id="sign-in-tab">
                     <div id="sign-in-cre">
-                        <label>User Name</label>
-                        <input type=text name="user-name" id="user-name">
-                        <label>Password</label>
-                        <input type=password name="pwd" id="pwd">
-                        <input type=submit>
+                        <label class="fields" >User Name</label>
+                        <input class="fields"  type=text name="user-name" id="user-name">
+                        <label class="fields" >Password</label>
+                        <input class="fields"  type=password name="pwd" id="pwd">
+                        <input class="fields"  type=submit>
                     </div>
                 </div> 
                     
