@@ -16,11 +16,12 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(40,24,111,1) 17%, rgba(6,219,246,1) 100%);
     border-radius:10px;
     /* position: sticky;
     top: 0; */
     color : white;
+    background-image: linear-gradient(to right, #73e4d2, #61dfd8, #4edadd, #3cd5e3, #2acfe8, #00c6f0, #00bcf6, #00b1fa, #009dff, #0088ff, #006ffc, #3651f0);
+    
 }
 #logo
 {
@@ -31,7 +32,7 @@
 }
 #title
 {
-    
+    color : white;
    text-shadow: 1px 1px 1px grey; 
    font-size: xx-large;
 }
@@ -68,12 +69,12 @@
 }
 #nav_bar
 {
-    background-color: bisque;
+    background-image: linear-gradient(to bottom, #11a8fe, #0091ff, #0076ff, #0054ff, #5c15f6);
     margin:0px 5px 0px 5px;
-    width:100%;
     border-radius:10px;
     /* position: sticky;
     top:165px; */
+    
     
 }
 #nav_bar ul
@@ -89,7 +90,7 @@
     text-decoration: none;
     font-weight: 300;
     font-size: x-large;
-    color:black;
+    color : white;
     
 }
 #nav_bar ul li a
@@ -100,7 +101,7 @@
     text-decoration: none;
     font-weight: 300;
     font-size: x-large;
-    color:black;
+    color : white;
 }
 #login-form
 {
@@ -124,12 +125,19 @@
     display:flex;
     
 }
-.form-group
+#login-tab1
 {
-    width:50%;
+    width:20%;
     height:600px;   
                 
 }
+#login-tab2
+{
+    width:80%;
+    height:600px;   
+                
+}
+
 #sign-in-form
 {
     width:100%;
@@ -223,6 +231,11 @@
 #address
 {
     height:80px;
+}
+#photo
+{
+    height:20px;
+    text-align: center;
 }
 #sign-up-tab
 {
