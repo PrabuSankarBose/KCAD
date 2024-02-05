@@ -24,8 +24,8 @@
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="admission.php">Admission</a></li>
             <li><a href="student.php">Student's Portal</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">About us</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+            <li><a href="../index.html#about">About us</a></li>
         </ul>
     </div>
     <!-- form start here -->
@@ -41,9 +41,9 @@
             <div id="login-tab2">
                 <div id="sign-in-tab">
                     <div id="sign-in-cre">
-                        <form name="signin_form" action="result.php" method="post">
+                        <form name="signin_form" action="profile.php" method="post">
                             <table><tr><td>
-                                <label class="fields label_fields" >Roll-no</label></td><td>
+                                <label class="fields label_fields" >Roll Number</label></td><td>
                                 <input class="fields"  type=text name="roll-no-signin" id="roll-no-signin"  autofocus></td></tr><tr><td>
                                 <label class="fields label_fields" >Password</label></td><td>
                                 <input class="fields"  type=password name="pwd-signin" id="pwd-signin" ></td></tr><tr><td colspan="2" style="text-align:center">
@@ -56,10 +56,10 @@
                     
                 <div id="sign-up-tab">
                     <div id="sign-up-cre">
-                        <form name="signup_form" action="result.php" method="post" onsubmit = "return signup_validation()">
+                        <form name="signup_form" action="profile.php" method="post" onsubmit = "return signup_validation()">
                             <table><tr><td>
                                 <label class="fields label_fields">Roll Number</label></td><td>
-                                <input class="fields" type=number name="roll-no" id="roll-no" min="1001" max="9999" required></td><td>
+                                <input class="fields" type=number name="roll-no-signup" id="roll-no" min="1001" max="9999" required></td><td>
                                 <label class="fields label_fields">Full Name</label></td><td>
                                 <input class="fields" type=text name="user-name-signup" id="user-name-signup"></td></tr><tr><td>
                                 <label class="fields label_fields">E-mail</label></td><td>
@@ -70,9 +70,9 @@
                                 <label class="fields label_fields">Date of Birth</label></td><td>
                                 <input class="fields" type=date name="dob" id="dob"  required></td><td>
                                 <label class="fields label_fields">Gender</label></td><td style="display:flex">
-                                <label class="fields label_fields">Male</label>
+                                <label for="male" class="fields label_fields">Male</label>
                                 <input class="fields" type=radio name="gender" id="male" value = "male"  required>
-                                <label class="fields label_fields">Female</label>
+                                <label for="female" class="fields label_fields">Female</label>
                                 <input class="fields" type=radio name="gender" id="female" value = "female"  required></td></tr>
                                 <tr><td>
                                 <label class="fields label_fields">Phone Number</label></td><td>
