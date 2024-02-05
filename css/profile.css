@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Poppins:wght@400;500&display=swap');
+*
+{
+    padding:0px;
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Merriweather', serif; */
+    
+}
+#header
+{
+    margin:5px 5px 0px 5px;
+    height:auto;
+    width:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(0deg, rgba(40,24,111,1) 17%, rgba(6,219,246,1) 100%); */
+    border-radius:10px;
+    /* position: sticky;
+    top: 0; */
+    color : white;
+    background-image: linear-gradient(to right, #73e4d2, #61dfd8, #4edadd, #3cd5e3, #2acfe8, #00c6f0, #00bcf6, #00b1fa, #009dff, #0088ff, #006ffc, #3651f0);
+    
+}
+#logo
+{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    padding:10px 20px;
+}
+#title
+{
+    color : white;
+   text-shadow: 1px 1px 1px grey; 
+   font-size: xx-large;
+}
+#notification
+{
+    
+    border:1px solid red;
+    border-radius: 10px;
+    margin:10px;
+    width:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+#notification div
+{
+    font-family: 'Merriweather', serif;
+    background-color: red;
+    border-radius: 10px;
+    color:white;
+    width:20%;
+    height:auto;
+    text-wrap: nowrap;
+    padding:5px;
+    text-align: center;
+    font-weight: 700;
+
+}
+#notification marquee
+{
+    font-family: 'Merriweather', serif;
+    color:red;
+}
+#nav_bar
+{
+    background-image: linear-gradient(to bottom, #11a8fe, #0091ff, #0076ff, #0054ff, #5c15f6);
+    margin:0px 5px 0px 5px;
+    border-radius:10px;
+    /* position: sticky;
+    top:165px; */
+    
+    
+}
+#nav_bar ul
+{
+    display:flex;
+    justify-content: space-around;
+}
+#nav_bar ul li
+{
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    padding:20px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: x-large;
+    color : white;
+    
+}
+#nav_bar ul li a
+{
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    padding:20px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: x-large;
+    color : white;
+}
+#studprofile
+{
+    width:100%;
+    height:400px;
+    display:flex;
+}
+#sidebar
+{
+    width:15%;
+    height:400px;
+    background-color : hotpink
+}
+
+#sidebar ul
+{
+    display:flex;
+    flex-direction: column;
+    
+}
+#sidebar ul li
+{
+    font-family: 'Merriweather', serif;
+    list-style-type:none;
+    padding:20px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: large;
+    color : white;
+    border:1px solid black;
+}
+#details
+{
+    width:85%;
+    height:400px;
+    background-color : khaki;
+    display: flex;
+}
+#profpic
+{
+    width:250px;
+    height:250px;
+}
