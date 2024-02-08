@@ -18,8 +18,8 @@
     align-items: center;
     /* background: linear-gradient(0deg, rgba(40,24,111,1) 17%, rgba(6,219,246,1) 100%); */
     border-radius:10px;
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0;
     color : white;
     background-image: linear-gradient(to right, #73e4d2, #61dfd8, #4edadd, #3cd5e3, #2acfe8, #00c6f0, #00bcf6, #00b1fa, #009dff, #0088ff, #006ffc, #3651f0);
     
@@ -73,8 +73,8 @@
     background-image: linear-gradient(to bottom, #11a8fe, #0091ff, #0076ff, #0054ff, #5c15f6);
     margin:0px 5px 0px 5px;
     border-radius:10px;
-    /* position: sticky;
-    top:165px; */
+    position: sticky;
+    top:75px;
     
     
 }
@@ -107,14 +107,18 @@
 #studprofile
 {
     width:100%;
-    height:400px;
+    height:500px;
     display:flex;
+    border-radius: 10px;
+    margin:0px 5px 0px 5px;
+
 }
 #sidebar
 {
-    width:15%;
-    height:400px;
-    background-color : hotpink
+    width:20%;
+    height:100%;
+    background-color : hotpink;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #sidebar ul
@@ -122,6 +126,8 @@
     display:flex;
     flex-direction: column;
     
+    
+
 }
 #sidebar ul li
 {
@@ -129,20 +135,58 @@
     list-style-type:none;
     padding:20px;
     text-decoration: none;
-    font-weight: 300;
-    font-size: large;
+    font-weight: 400;
+    font-size: x-large;
     color : white;
     border:1px solid black;
+   
 }
 #details
 {
-    width:85%;
-    height:400px;
-    background-color : khaki;
+    width:80%;
+    height:100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+    background-color: khaki;
+    
+    
+}
+#profile-div
+{
+    width:90%;
+    height:90%;
+    display:flex;
+    background-color: azure;
+
+}
+#profile-1 
+{
+    width:50%;
+    height:auto;
+    padding:20px;
+
+}
+#profile-1 div 
+{
+    padding:5px;
+}
+#profile-1 div label,text
+{
+    padding:5px;
+    background-color: khaki;
+    display:inline-block;
+}
+#profile-2
+{
+    width:50%;
+    height:auto;
+    padding:20px;
 }
 #profpic
 {
     width:250px;
     height:250px;
+    border-radius: 100%;
 }

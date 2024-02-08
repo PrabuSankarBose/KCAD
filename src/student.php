@@ -14,7 +14,7 @@
         
     </div>
     <div id="header"><a href="../index.html">
-        <img id="logo" src="../img/enterance.jpg" alt="enterance image"></a>
+        <img id="logo" src="../img/badge_black.png" alt="enterance image"></a>
         <h1 id="title">K.C.A.D Chidambaram Gnangiri Matric Hr.Sec School</h1>
     </div>
     
