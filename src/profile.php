@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>K.C.A.D Hr.Sec School</title>
+    <link rel="shortcut icon" href="../img/badge_black.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/profile.css">
 </head>
 <body>
