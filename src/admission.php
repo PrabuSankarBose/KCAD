@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>K.C.A.D Hr.Sec School</title>
+    <link rel="shortcut icon" href="../img/badge_black.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/admission.css">
 </head>
 <body>
@@ -13,7 +14,7 @@
 
         </div>
         <div id="header"><a href="../index.html">
-            <img id="logo" src="../img/enterance.jpg" alt="enterance image"></a>
+            <img id="logo" src="../img/badge_black.png" alt="enterance image"></a>
             <h1 id="title">K.C.A.D Chidambaram Gnangiri Matric Hr.Sec School</h1>
         </div>
 
